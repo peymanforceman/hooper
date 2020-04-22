@@ -45,10 +45,8 @@ export default {
       'svg',
       {
         attrs: {
-          class: `icon icon-${props.name}`,
+          class: `icon icon-${props.name} slider-icon-${props.name}`,
           viewBox: '0 0 24 24',
-          width: '24px',
-          height: '24px'
         }
       },
       children
