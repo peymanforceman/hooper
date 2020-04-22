@@ -46,7 +46,6 @@ export default {
       {
         attrs: {
           class: `icon icon-${props.name} slider-icon-${props.name}`,
-          viewBox: '0 0 24 24',
         }
       },
       children
